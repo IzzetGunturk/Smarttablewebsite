@@ -11,10 +11,24 @@
 }
 
 @keyframes scroll_2 {
-  0%   { transform: translateY(0); opacity: 1; }
-  25%  { opacity: 1; }
-  75%  { transform: translateY(.75em); opacity: 0; }
-  100% { transform: translateY(0); opacity: 0; }
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  75% {
+    transform: translateY(.75em);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
 }
 
 .scroll-icon__dot {
@@ -39,4 +53,37 @@
   width: 1.5em;
   border: .20em solid #ffffff96;
   border-radius: 1em;
+}
+
+.herotitle::after {
+  content: "SMART TABLE";
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  color: #ffffff96;
+  top: 15%;
+  left: 0;
+  font-size: 300px;
+  opacity: 0.020;
+  text-align: center;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 1040px){
+  .herotitle::after {
+    font-size: 200px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .herotitle::after {
+    font-size: 150px;
+  }
+}
+
+@media only screen and (max-width: 520px){
+  .herotitle::after {
+    display: none;
+  }
 }
