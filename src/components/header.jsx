@@ -20,11 +20,9 @@ return (
                 <div className="ml-4 flex items-center md:ml-6">
                     <div className="ml-10 flex items-baseline space-x-4">
                         <a href="#concept"
-                            className="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Concept</a>
+                            className="text-gray-300 hover:bg-gray-800 transition duration-200 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Concept</a>
                         <a href="#prototype"
-                            className="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Prototype</a>
-                        <a href="#contact"
-                            className="text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                            className="text-gray-300 hover:bg-gray-800 transition duration-200 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Prototype</a>
                     </div>
                 </div>
             </div>
@@ -49,11 +47,9 @@ return (
     <div className={`${isNavOpen ? 'block' : 'hidden' } md:hidden`}>
         <div className="px-2 pt-2 pb-3 sm:px-3">
             <a href="#concept"
-                className="block text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-base font-medium">Concept</a>
+                className="block text-gray-300 hover:bg-gray-800 transition duration-200 hover:text-white px-3 py-2 rounded-md text-base font-medium">Concept</a>
             <a href="#prototype"
-                className="block text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-base font-medium">Prototype</a>
-            <a href="#contact"
-                className="block text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                className="block text-gray-300 hover:bg-gray-800 transition duration-200 hover:text-white px-3 py-2 rounded-md text-base font-medium">Prototype</a>
         </div>
     </div>
 </nav>
