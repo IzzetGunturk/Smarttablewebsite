@@ -60,8 +60,8 @@ return (
                 className="block text-gray-300 hover:bg-gray-800 hover:text-white px-3 py-2 rounded-md text-base font-medium">Contact</a>
         </div>
     </div>
-
 </nav>
+
 )}
 
 export default Header;
