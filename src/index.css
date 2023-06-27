@@ -10,6 +10,11 @@
   scroll-margin: 50px;
 }
 
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: #37415174;
+}
+
 @keyframes scroll_2 {
   0% {
     transform: translateY(0);

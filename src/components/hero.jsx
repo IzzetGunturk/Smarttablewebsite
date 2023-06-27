@@ -19,7 +19,7 @@ return (
             </div>
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
-                <a className="block rounded bg-gray-800 hover:bg-gray-600 transition ease-in-out duration-200 px-12 py-3 text-sm font-medium text-white shadow-md z-50"
+                <a className="block rounded bg-gray-800 hover:bg-gray-600 transition ease-in-out duration-200 px-12 py-3 text-sm font-medium text-white shadow-md z-30"
                     href="#concept">
                     Read more
                 </a>
