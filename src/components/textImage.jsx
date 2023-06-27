@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 import tableImg from '../assets/tableImg.png';
 
 function TextImage() {
+  useEffect (() => {
+    AOS.init({duration: 1500 });
+    AOS.refresh();
+  }, []);
+
 return (
-<section className="px-5 lg:pl-16" id='concept'>
+<section className="px-5 lg:pl-16" data-aos="fade-up" id='concept'>
   <div className="rounded-3xl max-w-7xl mx-auto">
     <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-16">
       <div className="relative h-48 md:pt-10 lg:order-last lg:h-full">
