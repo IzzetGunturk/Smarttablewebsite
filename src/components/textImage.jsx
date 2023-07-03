@@ -18,7 +18,7 @@ return (
       </div>
 
       <div className="pb-10 lg:pt-8 text-secondary lg:order-first">
-        <h2 className="text-3xl font-bold sm:text-4xl text-gray-200">Concept</h2>
+        <h2 className="text-3xl font-medium sm:text-4xl text-gray-200">Concept</h2>
         <h3 className="mt-4 text-sm text-gray-400">
             The Smart Table is an advanced table designed for group workstations. It features a built-in user interface
             that allows students to manually decide whether the windows should be opened in the event of excessive

@@ -13,7 +13,7 @@ return (
   <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
 
     <div data-aos="fade-up"
-      className="block rounded-xl border text-center bg-gray-600 hover:bg-[#555f6d] transition duration-200 border-none p-8 shadow-xl">
+      className="rounded-xl border text-center bg-gray-600 hover:bg-[#555f6d] transition duration-200 border-none p-8 shadow-xl">
       <svg xmlns="http://www.w3.org/2000/svg" className='h-10 w-10 mx-auto text-white' fill="none" viewBox="0 0 24 24"
         strokeWidth="1.5" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round"
@@ -29,7 +29,7 @@ return (
     </div>
 
     <div data-aos="fade-up"
-      className="block rounded-xl border text-center bg-gray-600 hover:bg-[#555f6d] transition duration-200 border-none p-8 shadow-xl">
+      className="rounded-xl border text-center bg-gray-600 hover:bg-[#555f6d] transition duration-200 border-none p-8 shadow-xl">
       <svg xmlns="http://www.w3.org/2000/svg" className='h-10 w-10 mx-auto text-white' fill="none" viewBox="0 0 24 24"
         strokeWidth="1.5" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round"
@@ -45,7 +45,7 @@ return (
     </div>
 
     <div data-aos="fade-up"
-      className="block rounded-xl border text-center bg-gray-600 hover:bg-[#555f6d] transition duration-200 border-none p-8 shadow-xl">
+      className="rounded-xl border text-center bg-gray-600 hover:bg-[#555f6d] transition duration-200 border-none p-8 shadow-xl">
       <svg xmlns="http://www.w3.org/2000/svg" className='h-10 w-10 mx-auto text-white' fill="none" viewBox="0 0 24 24"
         strokeWidth="1.5" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round"
