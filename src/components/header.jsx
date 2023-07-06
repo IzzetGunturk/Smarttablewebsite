@@ -35,11 +35,11 @@ return (
                     : 'Open navigation' } aria-hidden="true">
                     <div className="absolute block w-8 transform -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2">
                         <span aria-hidden="true" className={`block absolute h-0.5 w-full bg-white transform transition
-                            duration-500 ease-in-out ${ isNavOpen ? 'rotate-45' : '-translate-y-2' }`}></span>
+                            duration-200 ease-in-out ${ isNavOpen ? 'rotate-45' : '-translate-y-2' }`}></span>
                         <span aria-hidden="true" className={`block absolute h-0.5 w-full bg-white transform transition
-                            duration-500 ease-in-out ${ isNavOpen ? 'opacity-0' : '' }`}></span>
+                            duration-200 ease-in-out ${ isNavOpen ? 'opacity-0' : '' }`}></span>
                         <span aria-hidden="true" className={`block absolute h-0.5 w-full bg-white transform transition
-                            duration-500 ease-in-out ${ isNavOpen ? '-rotate-45' : 'translate-y-2' }`}></span>
+                            duration-200 ease-in-out ${ isNavOpen ? '-rotate-45' : 'translate-y-2' }`}></span>
                     </div>
                 </button>
             </div>
