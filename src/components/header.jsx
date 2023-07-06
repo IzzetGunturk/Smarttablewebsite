@@ -14,8 +14,7 @@ return (
             <div className="flex items-center">
                 <div className="flex-shrink-0">
                     <a href='#hero' className="text-white font-bold text-lg">
-                        <p className='hover:scale-110 transition duration-200'>SMART TABLE.</p>
-                    </a>
+                        <p className='hover:scale-110 transition duration-200'>SMART TABLE.</p></a>
                 </div>
             </div>
             <div className="hidden md:block">
