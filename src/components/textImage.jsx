@@ -14,7 +14,7 @@ return (
   <div className="rounded-3xl max-w-7xl mx-auto">
     <div className="grid grid-cols-1 gap-14 lg:grid-cols-2 lg:gap-16">
       <div className="relative md:pt-10 lg:order-last lg:h-full">
-        <img src={tableImg}></img>
+        <img src={tableImg} alt="Tableimage" />
       </div>
 
       <div className="pb-10 lg:pt-8 text-secondary lg:order-first">
