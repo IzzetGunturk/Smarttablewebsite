@@ -14,6 +14,10 @@
 
 .navbar {
   backdrop-filter: blur(10px);
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 50;
   background-color: #37415174;
 }
 
