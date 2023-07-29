@@ -20,13 +20,13 @@ return (
 
             <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <a className="rounded bg-gray-800 hover:bg-gray-600 transition ease-in-out duration-200 px-12 py-3 text-sm text-white shadow-md z-30"
-                    href="#concept">
+                    href="#concept" aria-label="Readmorebutton">
                     Read more
                 </a>
             </div>
 
             <div className="flex flex-wrap justify-center pt-32">
-                <a href="#concept" className="scroll-icon">
+                <a href="#concept" className="scroll-icon" aria-label="Scrollicon">
                     <span className="scroll-icon__dot"></span>
                 </a>
             </div>

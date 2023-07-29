@@ -4,10 +4,6 @@ import 'aos/dist/aos.css';
 import tableImg from '../assets/tableImg.png';
 
 function TextImage() {
-  useEffect (() => {
-    AOS.init({duration: 1500 });
-    AOS.refresh();
-  }, []);
 
 return (
 <section className="px-5 lg:pl-16" data-aos="fade-up" id='concept'>

@@ -4,10 +4,6 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 
 function SplineObject() {
-  useEffect (() => {
-    AOS.init({duration: 1500 });
-    AOS.refresh();
-  }, []);
 
 return (
   <section className="flex flex-col items-center justify-center h-[40rem] pt-28 text-center" id='prototype' data-aos="fade-up">

@@ -3,10 +3,6 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 
 function Cards() {
-  useEffect (() => {
-    AOS.init({duration: 1500 });
-    AOS.refresh();
-  }, []);
 
   const cardsData = [
     {
