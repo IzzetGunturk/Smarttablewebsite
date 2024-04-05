@@ -36,7 +36,7 @@ function Cards() {
 
 return (
 <section className='px-5 pb-16'>
-  <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+  <div className="mt-20 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-[75rem] mx-auto">
     {cardsData.map((cards, index) => (
     <div data-aos="fade-up" className="flex" key={index}>
       <div className="rounded-xl border text-center bg-gray-600 hover:bg-[#555f6d] transition duration-200 border-none p-8 shadow-xl">

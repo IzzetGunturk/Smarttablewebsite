@@ -5,7 +5,7 @@ function Hero() {
 return (
 <section id="hero">
     <div className="mx-auto max-w-screen-xl px-4 pt-[19rem] pb-32 lg:flex lg:h-screen lg:items-center">
-        <div className="mx-auto max-w-xl text-center">
+        <div className="mx-auto max-w-[75rem] text-center">
             <h1 className="font-semibold text-5xl md:text-6xl text-gray-200 herotitle">
                 SMART TABLE.
             </h1>
